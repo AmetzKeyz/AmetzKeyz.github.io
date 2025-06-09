@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKevents</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sg"></div>
+  <header>
+    <h1>AKevents</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#events">Events</a>
+      <a href="#bookings">Bookings</a>
+      <a href="login.html">Login</a>
+
+    </nav>
+  </header>
+<main>
+  <section id="home" class="section">
+    <h2 class="greeting">Welcome to AKevents</h2>
+    <p>where unforgettable experiences come to life! We're more than just an event management brand; we're the magic-makers behind your most cherished memories.
+       Whether you're planning a lavish wedding, a high-energy concert, a corporate conference, or an intimate birthday bash, AKevents brings passion, precision,
+       and creativity to every occasion. With a team of dedicated professionals and a flair for detail,
+      we specialize in crafting events that are not only well-organized but also full of energy, elegance, and excitement.</p>
+
+    <div class="gallery-scroll">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgHEJaPmo8x-DaQGvJ3BNAjaID4uxwBIWdFw&s" alt="Event 1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mazie_Hirono_and_Chuck_Schumer.jpg/640px-Mazie_Hirono_and_Chuck_Schumer.jpg" alt="Event 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQehw5uJEFp1awvdCM5zwOFZsGVS7-bhhcHkQ&s" alt="Event 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr0nq_cChjB-BSiCOa8XArkhWs7FTm-REaAg&s" alt="Event 4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsRHKlCP2HsKj-PfONNWQEKtdTEbTBpS0GeQ&s"alt="Event 6">
+
+    </div>
+    <section id="events" class="section">
+    <h2>Upcoming Events</h2>
+    <button class="btn" onclick="addRandomEvent()">List Events</button>
+    <div id="eventList"></div>
+  </section>
+  <section id="bookings" class="section">
+    <h2>Book Your Spot</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <select>
+        <option disabled selected>Select an Event</option>
+  <option value="BPE">Business & Professional Event</option>
+  <option value="ME">Music Event</option>
+  <option value="SFE">Sports & Fitness Event</option>
+  <option value="PE">Personal Event</option>
+      </select>
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </section>
+       <p>At AKevents, we believe every event should be as unique as the people behind it. That’s why we work closely with our clients
+       to <br>bring their vision to life — no matter how wild, elegant, or extraordinary.Let us handle the stress, so you can enjoy the spotlight. </p><br>
+<section class="newsletter-section">
+    <h2>Subscribe To Our Newsletter</h2>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </section>
+</main>
+  <footer class="footer">
+    <p>&copy; 2025 AKevents. All rights reserved.</p>
+    <p>Call us: 0598131110</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="footer-icons">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-Threads"></a>
+</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
